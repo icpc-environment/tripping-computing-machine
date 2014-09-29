@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Change Team Name
+Comment=
+Exec=gksudo /icpc/scripts/changeTeamName.sh
+Icon=system-users
+Path=
+Terminal=false
+StartupNotify=false
