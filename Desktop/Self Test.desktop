@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Self Test
+Comment=
+Exec=xfce4-terminal --maximize -H -e 'sudo /icpc/scripts/self_test' -T "Self Test"
+Icon=checkbox
+Path=
+Terminal=false
+StartupNotify=false
+GenericName=
