@@ -3,8 +3,8 @@
 Version=1.0
 Type=Application
 Name=Full Reset
-Comment=Wipe team account, and run setup again on firstlogin
-Exec=gksudo /icpc/scripts/deleteUser.sh
+Comment=Attempt to reset back to factory-defaults
+Exec=gksudo /icpc/scripts/full_reset.sh
 Icon=dialog-warning
 Path=
 Terminal=true
