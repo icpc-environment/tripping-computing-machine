@@ -1,11 +1,10 @@
-
 [Desktop Entry]
 Version=1.0
 Type=Application
-Name=Full Reset
+Name=Factory Reset
 Comment=Attempt to reset back to factory-defaults
-Exec=gksudo /icpc/scripts/full_reset.sh
+Exec=xfce4-terminal --maximize -T "Full Reset" -H -e 'sudo /icpc/scripts/full_reset.sh'
 Icon=dialog-warning
-Path=
 Terminal=true
 StartupNotify=false
+Name[en_US]=Factory Reset
